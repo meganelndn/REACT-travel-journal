@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+/* Travel journal container */
+.App {
+  margin: 0 auto;
+  height: 755px;
+  width: 550px;
+  background: #fff;
+  padding-right: 40px;
+}
+
+/* Navbar */
+nav {
+  position: absolute;
+  top: 0;
+  width: 550px;
+  height: 55px;
+  background: #F55A5A;
+}
+
+.nav--icon {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 34%;
+  top: 30%;
+}
+
+.nav--title {
+  position: relative;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+  text-align: center;
+  bottom: 14px;
+}
+
+/* Card */
+.card:first-of-type {
+  padding-top: 100px;
+}
+
+.card {
+  padding-top: 30px;
+}
+
+.card--stats {
+  position: relative;
+  height: 198px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.card--img {
+  position: absolute;
+  width: 156px;
+  height: 168px;
+  left: 30px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+}
+
+.card--text {
+  margin-left: 204px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #2B283A;
+}
+
+.location--details {
+  display: flex;
+}
+
+.grey {
+  position: absolute;
+  left: 73%;
+  font-weight: normal;
+  font-size: 10.24px;
+  color: #918E9B;
+}
+
+.card--location {
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 10.5px;
+  letter-spacing: 0.17em;
+}
+
+.location {
+  position: absolute;
+  left: 205px;
+  width: 7px;
+  height: 10px;
+}
+
+.card--title {
+  font-size: 25px;
+}
+
+.card--date {
+  font-size: 10px;
+}
+
+.card--desc {
+  font-weight: normal; 
+  font-size: 10.24px;
+}
